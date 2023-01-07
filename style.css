@@ -1,4 +1,19 @@
-.logo{
-    width:30%;
+.logo {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
    
+}
+
+.produtos {
+    display: inline-block;
+    border: solid;
+    border-radius: 20px;
+    width: 30%;
+    
+}
+
+.imagem {
+    width: 35%;
+    margin: 0 auto;
 }
