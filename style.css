@@ -1,3 +1,9 @@
+.principal{
+    background-color: blueviolet;
+}
+
+
+
 .logo {
     width: 20%;
     display: block;
@@ -5,15 +11,18 @@
    
 }
 
-.produtos {
+.produtos li {
     display: inline-block;
-    border: solid;
-    border-radius: 20px;
-    width: 30%;
-    
+    text-align: center;
+    width:30%;
+   
+
+
 }
 
 .imagem {
-    width: 35%;
+    width: 25%;
     margin: 0 auto;
+    border: 2px solid #000000;
+    border-radius: 15px;
 }
