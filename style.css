@@ -1,4 +1,4 @@
-.principal{
+.principal {
     background-color: blueviolet;
 }
 
@@ -8,21 +8,52 @@
     width: 20%;
     display: block;
     margin: 0 auto;
-   
+
 }
 
-.produtos li {
-    display: inline-block;
+.produtos {
+    display: block;
     text-align: center;
-    width:30%;
-   
+    width: 80%;
+    vertical-align: top;
+    padding: 30px 20px;
+    box-sizing: border-box;
 
 
 }
+
+.produtos p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
 
 .imagem {
     width: 25%;
     margin: 0 auto;
     border: 2px solid #000000;
     border-radius: 15px;
+}
+
+.imagem:hover{
+    border:beige;
+    border-radius: 40%;
+  
+}
+
+.botao {
+    border: solid;
+    border-radius: 20px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: darkorange;
+    transform: scale(1.2);
+    font-size:15px;
+    text-decoration: underline;
 }
