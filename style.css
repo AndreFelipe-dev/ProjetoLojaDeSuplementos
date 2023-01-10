@@ -1,8 +1,6 @@
 .principal {
-    background-color: blueviolet;
+   background: linear-gradient(white,black)
 }
-
-
 
 .logo {
     width: 20%;
@@ -29,6 +27,10 @@
 
 }
 
+.produtos img{
+    
+}
+
 
 
 .imagem {
@@ -36,6 +38,7 @@
     margin: 0 auto;
     border: 2px solid #000000;
     border-radius: 15px;
+    
 }
 
 .imagem:hover{
